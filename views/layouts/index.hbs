@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CRUD</title>
+
+    {{>scripts}}
+
+</head>
+
+<body>
+
+    <!-- Navegacion-->
+
+    {{>navbar}}
+
+    <center>
+    <div class="jumbotron">
+        <h1 class="display-4">Hola, Vasquez Perez Luis Gerardo</h1>
+        <p class="lead">Numero de control: 16210586 Carrera: Ing. Sistemas Computacionales</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" href="/" role="button">Home</a>
+         <a class="btn btn-primary btn-lg" href="/users/register" role="button">Registro</a>
+         <a class="btn btn-primary btn-lg" href="/auth/login" role="button">Login</a>
+        <a class="btn btn-primary btn-lg" href="/insertProduct" role="button">Insertar</a>
+        <a class="btn btn-primary btn-lg" href="/api/product" role="button">Productos</a>
+        </p>
+    </div>
+    </center>
+    {{{body}}}
+
+    <!-- Footer o pie de pagina-->
+
+</body>
+
+</html>
