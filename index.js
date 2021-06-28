@@ -39,6 +39,6 @@ mongoose.connect(config.db, config.urlParser, (err, res) => {
     console.log('Conexion a la BD exitosa')
 
     app.listen(config.port, () => {
-        console.log(`Ejecutando en http://localhost:${config.port}`)
+        console.log(`Ejecutando en hmongodb+srv://vasquez:16210586@cluster0.gvflt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority:${config.port}`)
     })
 })
