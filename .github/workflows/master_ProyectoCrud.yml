@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'ProyectoCrud'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2f03dc29a8d54cff834b5d9ee1727c91 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a80ad0b74dbf4dc49191e08bdabfa2a0 }}
         package: .
